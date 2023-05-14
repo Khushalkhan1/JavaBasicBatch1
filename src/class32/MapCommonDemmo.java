@@ -16,5 +16,9 @@ public class MapCommonDemmo {
         Map<String, Double> fruits2=new HashMap<>();
         fruits2.putAll(fruits);
         System.out.println(fruits2);
+        System.out.println(fruits.replace("Apple", 20.0));
+        System.out.println(fruits);
+        System.out.println(fruits2.isEmpty());
+        System.out.println(fruits2.containsKey("Apple"));
     }
 }
